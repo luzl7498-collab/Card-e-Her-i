@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(to right, #ff7b00, #ffb703);
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.card {
+  background-color: #1f1f1f;
+  width: 320px;
+  padding: 20px;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 123, 0, 0.6);
+}
+
+img {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 3px solid orange;
+}
+
+h1 {
+  color: #ffb703;
+}
+
+.tipo {
+  color: #ffd166;
+  margin-bottom: 15px;
+}
+
+/* STATUS */
+.status p {
+  text-align: left;
+  margin: 5px 0;
+  color: white;
+}
+
+.barra {
+  width: 100%;
+  height: 10px;
+  background-color: #333;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.progresso {
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* Barras */
+.vida {
+  width: 90%;
+  background-color: #ff595e;
+}
+
+.poder {
+  width: 95%;
+  background-color: #ffca3a;
+}
+
+.velocidade {
+  width: 85%;
+ background-color: #8ac926;
+}
